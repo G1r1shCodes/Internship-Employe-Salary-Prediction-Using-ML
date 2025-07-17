@@ -102,8 +102,6 @@ streamlit run app.py
 
 ## 📷 Screenshots
 
-> Replace with actual screenshots in your repo.
-
 | Input Form                               | Salary Prediction Output                 |
 | ---------------------------------------- | ---------------------------------------- |
 | ![]() | ![]() |
