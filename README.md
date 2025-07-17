@@ -1,136 +1,130 @@
-# 💼 Employee Salary Prediction Web App
+# 💼 Employee Salary Prediction Web Application
 
-A Machine Learning-powered web application that predicts an employee's annual salary based on multiple features such as age, gender, education level, job title, and years of experience. The app is built using **Streamlit** for the frontend and **scikit-learn** for modeling.
+A Machine Learning-powered web app that accurately predicts employee salaries based on inputs such as age, gender, education level, job title, and years of experience. Designed with a modern UI using **Streamlit**, and trained using regression techniques in **scikit-learn**.
 
----
-
-## 🚀 Demo
-
-[Project Demo Link](https://employe-salary-predictionbygirish.streamlit.app/)
-
----
-
-## 🧠 Project Highlights
-
-- 📊 **Regression Model** trained on structured employee salary data
-- 🎨 **Modern Streamlit UI** with interactive sliders and dropdowns
-- 🧮 **Features used**: Age, Gender, Education Level, Job Title, Years of Experience
-- 📈 Shows **Predicted Salary**, Monthly Salary, Hourly Rate, and more
-- ✅ Model Accuracy (R² Score) shown on the interface
-- 💾 Supports model caching with `joblib` for fast performance
+<p align="center">
+  <a href="https://employe-salary-predictionbygirish.streamlit.app/" target="_blank">
+    🔗 <strong>Live Demo</strong>
+  </a> |
+  <a href="https://www.kaggle.com/datasets/rkiattisak/salaly-prediction-for-beginer/data" target="_blank">
+    📂 Dataset
+  </a>
+</p>
 
 ---
 
-## 📂 Project Structure
+## 🚀 Features
+
+- 🔢 Predict salary using multiple input factors
+- 🎨 Interactive and modern Streamlit UI
+- 📈 Real-time display of predicted salary, monthly salary, hourly rate
+- 📊 Visual R² Score indicating model performance
+- 🧠 Trained using Linear Regression with proper preprocessing
+- 📦 Model caching for fast response
+
+---
+
+## 📊 Input Features
+
+- Age
+- Gender
+- Education Level
+- Job Title
+- Years of Experience
+
+---
+
+## 🛠 Tech Stack
+
+| Layer       | Tools Used                        |
+|-------------|-----------------------------------|
+| UI          | Streamlit, HTML/CSS               |
+| ML Model    | Scikit-learn (Linear Regression)  |
+| Data Prep   | Pandas, NumPy, LabelEncoder, Scaler |
+| Deployment  | Streamlit Cloud                   |
+
+---
+
+## 📁 Project Structure
 
 ```
 
-salary-predictor-app/
+salary-prediction-app/
 │
-├── app.py                    # Streamlit UI application
-├── model\_training.ipynb      # Jupyter Notebook for model building & training
-├── salary\_predictor.pkl      # Saved trained model (Joblib format)
-├── model\_score.txt           # R² score of the model
-├── requirements.txt          # Python dependencies
-├── Salary Data.csv           # Sample dataset (optional)
-└── README.md                 # Project documentation
+├── app.py                  # Streamlit web app
+├── model\_training.ipynb    # Model training notebook
+├── salary\_predictor.pkl    # Trained model
+├── model\_score.txt         # Stored R² score
+├── requirements.txt        # Dependencies
+└── README.md               # Project documentation
 
 ````
 
 ---
 
-## 📌 Features
+## 🔧 Setup Instructions
 
-- 🔢 Real-time predictions from user input
-- 💬 Supports encoding of categorical variables like Gender, Education, and Job Title
-- 🔒 No data is stored — everything runs securely on-device
-- 📱 Responsive layout with intuitive design
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/salary-prediction-app.git
+cd salary-prediction-app
+````
 
----
+### 2. Create a Virtual Environment
 
-## 🛠️ Tech Stack
+```bash
+python -m venv .venv
+source .venv/bin/activate      # On Windows: .venv\Scripts\activate
+```
 
-| Layer     | Technology            |
-|-----------|------------------------|
-| Frontend  | Streamlit              |
-| Backend   | Scikit-learn (ML model)|
-| Data      | Pandas, NumPy          |
-| Model     | LinearRegression       |
-| Styling   | Custom HTML/CSS        |
-| Packaging | Joblib                 |
+### 3. Install Dependencies
 
----
+```bash
+pip install -r requirements.txt
+```
 
-## ⚙️ Installation
+### 4. Run the Application Locally
 
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/yourusername/salary-predictor-app.git
-   cd salary-predictor-app
-
-2. **Create a Virtual Environment**
-
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate      # On Windows: .venv\Scripts\activate
-   ```
-
-3. **Install Dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the Application**
-
-   ```bash
-   streamlit run app.py
-   ```
+```bash
+streamlit run app.py
+```
 
 ---
 
-## 📊 Model Details
+## 📈 Model Information
 
 * **Algorithm**: Linear Regression
-* **Encoding**: Label Encoding for categorical features
-* **Scaler**: StandardScaler
 * **Evaluation Metric**: R² Score
-* **Output**: Predicted annual salary (numeric)
+* **Encoding**: Label Encoding for categorical fields
+* **Scaling**: StandardScaler for numeric normalization
 
 ---
 
-## 📸 Screenshots
+## 📷 Screenshots
 
-| Input Form                                                        | Prediction Output                                                  |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------ |
-| ![Input](https://via.placeholder.com/350x200.png?text=Input+Form) | ![Output](https://via.placeholder.com/350x200.png?text=Prediction) |
+> Replace with actual screenshots in your repo.
 
-> *(Replace with actual screenshots when uploading to GitHub)*
-
----
-
-## ✨ Future Enhancements
-
-* ✅ Add more regression models (RandomForest, XGBoost)
-* 📊 Display prediction confidence intervals
-* 🗃️ Database integration for logging predictions
-* 🌐 Deploy on Streamlit Cloud or Hugging Face Spaces
+| Input Form                               | Salary Prediction Output                 |
+| ---------------------------------------- | ---------------------------------------- |
+| ![](https://private-user-images.githubusercontent.com/187031858/467276419-bfe61990-5cdf-4dc5-91dd-c6f0b14d65d8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI3MTE2NzgsIm5iZiI6MTc1MjcxMTM3OCwicGF0aCI6Ii8xODcwMzE4NTgvNDY3Mjc2NDE5LWJmZTYxOTkwLTVjZGYtNGRjNS05MWRkLWM2ZjBiMTRkNjVkOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxN1QwMDE2MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NGRiZDIwZmNiMGVlNWMwZDY5MjNiYjE0N2FmNDQ4OTU2NTU1MjczYzdhMTU0NzQ2NTJkYmY5NWQyNzkzZjNiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.vNq-SE4PSITOW7kF6HpKHIet3Xxb4-gmfIfbZC76ufY) | ![](https://private-user-images.githubusercontent.com/187031858/467276419-bfe61990-5cdf-4dc5-91dd-c6f0b14d65d8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI3MTE2NzgsIm5iZiI6MTc1MjcxMTM3OCwicGF0aCI6Ii8xODcwMzE4NTgvNDY3Mjc2NDE5LWJmZTYxOTkwLTVjZGYtNGRjNS05MWRkLWM2ZjBiMTRkNjVkOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxN1QwMDE2MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NGRiZDIwZmNiMGVlNWMwZDY5MjNiYjE0N2FmNDQ4OTU2NTU1MjczYzdhMTU0NzQ2NTJkYmY5NWQyNzkzZjNiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.vNq-SE4PSITOW7kF6HpKHIet3Xxb4-gmfIfbZC76ufY) |
 
 ---
 
-## 🙌 Acknowledgements
+## 🌐 Live Deployment
 
-* Dataset prepared for demonstration purposes
-* Streamlit for the fantastic UI framework
-* CodeWithHarry / CampusX inspiration for ML fundamentals
+This project is deployed and publicly accessible at:
+👉 [https://employe-salary-predictionbygirish.streamlit.app/](https://employe-salary-predictionbygirish.streamlit.app/)
+
+---
+
+## 📄 Dataset Source
+
+* Kaggle: [Salary Prediction for Beginners](https://www.kaggle.com/datasets/rkiattisak/salaly-prediction-for-beginer/data)
 
 ---
 
-## 👨‍💻 Author
+## 📌 License
 
-**Girish Kumar Yadav**
-Third Year B.Tech Student
+This project is for educational and internship purposes. All rights reserved by the author.
 
-🔗 [LinkedIn](https://linkedin.com/in/girishkumarcs) • 📧 [your.email@example.com](girishyadav.cs@gmail.com)
-
----
+```
