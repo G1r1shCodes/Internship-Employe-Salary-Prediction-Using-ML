@@ -44,14 +44,13 @@ body {
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
 }
 .metric-card {
-    background: white;
+    background: linear-gradient(90deg, #3b82f6, #6366f1);
     padding: 1.5rem;
     border-radius: 12px;
     text-align: center;
-    border: 1px solid #e2e8f0;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.01);
     margin-bottom: 1.5rem;
-    color: #222;
+    color: white;
 }
 .metric-card h2 {
     font-size: 2rem;
