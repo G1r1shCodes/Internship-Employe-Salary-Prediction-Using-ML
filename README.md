@@ -1,10 +1,3 @@
-Absolutely, Girish! Here's a polished, professional **README.md** file for your **Employee Salary Prediction Web App**. It's written in markdown and formatted for GitHub or portfolio submission.
-
----
-
-### ✅ `README.md` — Copy & Paste This:
-
-```markdown
 # 💼 Employee Salary Prediction Web App
 
 A Machine Learning-powered web application that predicts an employee's annual salary based on multiple features such as age, gender, education level, job title, and years of experience. The app is built using **Streamlit** for the frontend and **scikit-learn** for modeling.
