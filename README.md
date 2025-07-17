@@ -6,7 +6,7 @@ A Machine Learning-powered web application that predicts an employee's annual sa
 
 ## 🚀 Demo
 
-![App Screenshot](https://via.placeholder.com/800x400.png?text=App+Screenshot) <!-- Replace with actual screenshot if uploading -->
+[Project Demo Link](https://employe-salary-predictionbygirish.streamlit.app/)
 
 ---
 
