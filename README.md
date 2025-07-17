@@ -67,8 +67,7 @@ salary-predictor-app/
    ```bash
    git clone https://github.com/yourusername/salary-predictor-app.git
    cd salary-predictor-app
-````
-````
+
 2. **Create a Virtual Environment**
 
    ```bash
