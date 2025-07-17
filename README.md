@@ -3,7 +3,7 @@
 A Machine Learning-powered web app that accurately predicts employee salaries based on inputs such as age, gender, education level, job title, and years of experience. Designed with a modern UI using **Streamlit**, and trained using regression techniques in **scikit-learn**.
 
 <p align="center">
-  <a href="https://employe-salary-predictionbygirish.streamlit.app/" target="_blank">
+  <a href="https://employee-salary-predictionbygirish.streamlit.app/" target="_blank">
     🔗 <strong>Live Demo</strong>
   </a> |
   <a href="https://www.kaggle.com/datasets/rkiattisak/salaly-prediction-for-beginer/data" target="_blank">
@@ -113,7 +113,7 @@ streamlit run app.py
 ## 🌐 Live Deployment
 
 This project is deployed and publicly accessible at:
-👉 [https://employe-salary-predictionbygirish.streamlit.app/](https://employe-salary-predictionbygirish.streamlit.app/)
+👉 [https://employe-salary-predictionbygirish.streamlit.app/](https://employee-salary-predictionbygirish.streamlit.app/)
 
 ---
 
