@@ -52,7 +52,7 @@ A Machine Learning-powered web app that accurately predicts employee salaries ba
 salary-prediction-app/
 │
 ├── app.py                  # Streamlit web app
-├── model\_training.ipynb    # Model training notebook
+├── Employee-Salary-Model.ipynb  # Model training notebook
 ├── salary\_predictor.pkl    # Trained model
 ├── model\_score.txt         # Stored R² score
 ├── requirements.txt        # Dependencies
