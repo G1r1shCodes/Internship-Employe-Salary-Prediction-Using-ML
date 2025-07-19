@@ -1,4 +1,4 @@
-# 💼 Employee Salary Prediction Web Application
+#  Employee Salary Prediction Web Application
 
 A Machine Learning-powered web app that accurately predicts employee salaries based on inputs such as age, gender, education level, job title, and years of experience. Designed with a modern UI using **Streamlit**, and trained using regression techniques in **scikit-learn**.
 
@@ -13,7 +13,7 @@ A Machine Learning-powered web app that accurately predicts employee salaries ba
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🔢 Predict salary using multiple input factors
 - 🎨 Interactive and modern Streamlit UI
@@ -24,7 +24,7 @@ A Machine Learning-powered web app that accurately predicts employee salaries ba
 
 ---
 
-## 📊 Input Features
+## Input Features
 
 - Age
 - Gender
@@ -34,7 +34,7 @@ A Machine Learning-powered web app that accurately predicts employee salaries ba
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer       | Tools Used                        |
 |-------------|-----------------------------------|
@@ -45,7 +45,7 @@ A Machine Learning-powered web app that accurately predicts employee salaries ba
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -62,7 +62,7 @@ salary-prediction-app/
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
@@ -91,7 +91,7 @@ streamlit run app.py
 
 ---
 
-## 📈 Model Information
+## Model Information
 
 * **Algorithm**: Linear Regression
 * **Evaluation Metric**: R² Score
@@ -100,7 +100,7 @@ streamlit run app.py
 
 ---
 
-## 📷 Screenshots
+##  Screenshots
 
 | Input Form                               | Salary Prediction Output                 |
 | ---------------------------------------- | ---------------------------------------- |
@@ -108,18 +108,18 @@ streamlit run app.py
 
 ---
 
-## 🌐 Live Deployment
+##  Live Deployment
 
 This project is deployed and publicly accessible at:
 👉 [https://employe-salary-predictionbygirish.streamlit.app/](https://employee-salary-predictionbygirish.streamlit.app/)
 
 ---
 
-## 📄 Dataset Source
+##  Dataset Source
 
 * Kaggle: [Salary Prediction for Beginners](https://www.kaggle.com/datasets/rkiattisak/salaly-prediction-for-beginer/data)
 
 ---
 
-## 📌 License
+## License
 This project is for educational and internship purposes. All rights reserved by the author.
