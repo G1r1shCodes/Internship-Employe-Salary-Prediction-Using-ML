@@ -104,7 +104,7 @@ streamlit run app.py
 
 | Input Form                               | Salary Prediction Output                 |
 | ---------------------------------------- | ---------------------------------------- |
-| ![](https://postimg.cc/jW3S2r6z) | ![](https://postimg.cc/D4rhrVGp) |
+| [![F481063-E-7676-4-BB4-91-F0-8778010069-E7.png](https://i.postimg.cc/fLDtHzJg/F481063-E-7676-4-BB4-91-F0-8778010069-E7.png)](https://postimg.cc/jW3S2r6z) | [![5-C3-D3098-24-A4-4-EF3-ABE2-7-D2-EBE64-D96-A.png](https://i.postimg.cc/Xqhv04YW/5-C3-D3098-24-A4-4-EF3-ABE2-7-D2-EBE64-D96-A.png)](https://postimg.cc/D4rhrVGp) |
 
 ---
 
