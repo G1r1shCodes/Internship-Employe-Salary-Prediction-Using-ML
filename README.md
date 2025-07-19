@@ -15,12 +15,12 @@ A Machine Learning-powered web app that accurately predicts employee salaries ba
 
 ## Features
 
-- 🔢 Predict salary using multiple input factors
-- 🎨 Interactive and modern Streamlit UI
-- 📈 Real-time display of predicted salary, monthly salary, hourly rate
-- 📊 Visual R² Score indicating model performance
-- 🧠 Trained using Linear Regression with proper preprocessing
-- 📦 Model caching for fast response
+-  Predict salary using multiple input factors
+-  Interactive and modern Streamlit UI
+-  Real-time display of predicted salary, monthly salary, hourly rate
+-  Visual R² Score indicating model performance
+-  Trained using Linear Regression with proper preprocessing
+-  Model caching for fast response
 
 ---
 
